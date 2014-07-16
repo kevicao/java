@@ -1,0 +1,14 @@
+import java.util.Scanner; 
+public class SMSproblem { 
+
+/** 
+* @param args 
+*/ 
+public static void main(String[] args) { 
+// TODO Auto-generated method stub 
+Scanner in = new Scanner(System.in); 
+System.out.println("Enter a set of numbers may containing '#' and '*':"); 
+String input = in.nextLine(); 
+System.out.println("Convert result:"); 
+number2string(input); 
+} 
